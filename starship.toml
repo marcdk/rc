@@ -1,0 +1,14 @@
+add_newline = false
+
+format = """
+$directory\
+$character\
+"""
+
+right_format = """$git_branch"""
+
+[git_branch]
+format = '[$branch(:$remote_branch)]($style) '
+
+[character]
+format = "\\$ "
