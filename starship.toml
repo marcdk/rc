@@ -5,10 +5,13 @@ $directory\
 $character\
 """
 
-right_format = """$git_branch"""
+right_format = """$python $git_branch"""
 
 [git_branch]
 format = '[$branch(:$remote_branch)]($style) '
+
+[python]
+format = '[$virtualenv]($style)'
 
 [character]
 format = "\\$ "
