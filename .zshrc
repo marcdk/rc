@@ -73,3 +73,8 @@ export NVM_DIR="$HOME/.nvm"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
+
+eval "$(starship init zsh)"
+eval "$(pyenv init -)"
+
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
