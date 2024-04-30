@@ -3,3 +3,6 @@ defaults write com.apple.dock autohide -bool true && defaults write com.apple.do
 
 # Add small spacer
 defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'; killall Dock
+
+# Remove screenshot shadows
+defaults write com.apple.screencapture "disable-shadow" -bool "true"
