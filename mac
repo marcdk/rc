@@ -6,3 +6,9 @@ defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-sp
 
 # Remove screenshot shadows
 defaults write com.apple.screencapture "disable-shadow" -bool "true"
+
+# Keep folders on top in Finder
+defaults write com.apple.finder _FXSortFoldersFirst -bool true
+
+# References
+https://mac.install.guide/mac-setup/
